@@ -1,0 +1,29 @@
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\2 пара.exe
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\2 пара.deps.json
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\2 пара.runtimeconfig.json
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\2 пара.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\2 пара.pdb
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\FSharp.Core.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\cs\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\de\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\es\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\fr\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\it\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\ja\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\ko\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\pl\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\pt-BR\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\ru\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\tr\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\zh-Hans\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\bin\Debug\net8.0\zh-Hant\FSharp.Core.resources.dll
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.fsproj.AssemblyReference.cache
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.AssemblyInfoInputs.cache
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.AssemblyInfo.fs
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.fsproj.CoreCompileInputs.cache
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.fsproj.Up2Date
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.dll
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\refint\2 пара.dll
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.pdb
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\2 пара.genruntimeconfig.cache
+C:\Users\sterh\source\repos\2 пара\obj\Debug\net8.0\ref\2 пара.dll

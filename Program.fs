@@ -62,7 +62,7 @@ let mul (c1: Complex) (c2: Complex) =
     { Re = c1.Re * c2.Re - c1.Im * c2.Im
       Im = c1.Re * c2.Im + c1.Im * c2.Re }
 
-// Деление (заменён failwith на printf + возврат нуля)
+// Деление 
 let div (c1: Complex) (c2: Complex) =
     let denom = c2.Re * c2.Re + c2.Im * c2.Im
     if denom = 0.0 then
@@ -72,7 +72,7 @@ let div (c1: Complex) (c2: Complex) =
         { Re = (c1.Re * c2.Re + c1.Im * c2.Im) / denom
           Im = (c1.Im * c2.Re - c1.Re * c2.Im) / denom }
 
-// Возведение в целую неотрицательную степень (заменён failwith на printf + возврат 1+0i)
+// Возведение в целую неотрицательную степень 
 let rec pow (c: Complex) (n: int) =
     if n < 0 then
         printfn "Степень должна быть неотрицательной"
@@ -84,7 +84,7 @@ let rec pow (c: Complex) (n: int) =
         let p2 = mul p p
         if n % 2 = 0 then p2 else mul c p2
 
-// Преобразование символа в число с плавающей точкой (заменён failwith на printf + возврат 0.0)
+// Преобразование символа в число с плавающей точкой 
 let charToFloat (ch: char) =
     if Char.IsDigit(ch) then float (string ch)
     else
@@ -116,7 +116,7 @@ let main argv =
     let re2 = charToFloat s2
     let z2 = makeComplex re2 im2
 
-    // Ввести показатель степени 
+
     printf "Введите показатель степени (целое неотрицательное число, можно несколько цифр): "
     let nStr = Console.ReadLine()
     let n = int nStr

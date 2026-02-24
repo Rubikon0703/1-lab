@@ -1,43 +1,51 @@
-﻿(*// 1 задание 
-open System
+// 1 задание 
+(*open System
 //Для создания нужного списка пользователя
 let rec List a b n =
     if n <= 0 
     then []                              
-    else a :: List b a (n - 1)   
-printf "Введите первый символ: "
-let first = Console.ReadKey().KeyChar
-printfn ""   
-printf "Введите второй символ: "
-let second = Console.ReadKey().KeyChar
-printfn ""
-printf "Введите количество символов в списке: "
-let count = Console.ReadLine() |> int
-let result = List first second count
-printfn "Список: %A" result*)
+    else a :: List b a (n - 1) 
+
+[<EntryPoint>]
+let main argv =
+
+    printf "Введите первый символ: "
+    let first = Console.ReadKey().KeyChar
+    printfn ""   
+    printf "Введите второй символ: "
+    let second = Console.ReadKey().KeyChar
+    printfn ""
+    printf "Введите количество символов в списке: "
+    let count = Console.ReadLine() |> int
+    let result = List first second count
+    printfn "Список: %A" result
+
+    0                                           
+*)
 
 
-
-
-(*// 2 задание
+// 2 задание
 //для отделения цифр от числа и сложения их
 open System
 let rec summ (x:int)  =
-            if x = 0 then 0
-                else (x % 10) + summ (x / 10)
-             
-printfn "Введите натуральное число  "
-let natur = int(Console.ReadLine())
-if natur > 0 then  //проверка на натуральность
-        let result = summ natur
-        printfn "Сумма цифр числа %d равна %d" natur result
-else
-        printf "Введено не натуральное число"*)
+    if x = 0 then 0
+    else (x % 10) + summ (x / 10)
+
+[<EntryPoint>]
+let main argv =
+
+    printfn "Введите натуральное число  "
+    let natur = int(Console.ReadLine())
+    if natur > 0 then  //проверка на натуральность
+            let result = summ natur
+            printfn "Сумма цифр числа %d равна %d" natur result
+    else
+         printf "Введено не натуральное число"
+    0
 
 
 
-
-//3 задание
+(*
 
 //3 задание
 
@@ -152,4 +160,4 @@ let main argv =
     printComplex power
     printfn ""
 
-    0
+    0 *)
